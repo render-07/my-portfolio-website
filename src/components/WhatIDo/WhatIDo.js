@@ -118,7 +118,7 @@ const WhatIDo = () => {
               display: { xs: "none", lg: "block" },
             }}
           >
-            <img src="assets/coding.PNG" style={{ height: "100%" }} />
+            <img src="assets/coding.ico" style={{ height: "100%" }} />
           </Container>
         </StyledLeftGrid>
         <StyledRightGrid item xs={6}>
