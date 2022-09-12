@@ -86,7 +86,7 @@ const Landing = () => {
             ></StyledColoredContainer>
             <StyleRoot>
               <div className="imageContainer" style={styles.imageContainer}>
-                <img src="assets/me.ico" style={styles.image}></img>
+                <img src="assets/me.jpg" style={styles.image}></img>
               </div>
             </StyleRoot>
           </StyledLeftContainer>
