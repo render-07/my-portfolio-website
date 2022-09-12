@@ -141,8 +141,8 @@ const WhatIDo = () => {
                   Frontend Designing
                 </Typography>
                 <Typography variant="h6" component="div">
-                  I aspire to be a Fullstack Developer so I develop UI using
-                  React JS.
+                  I aspire to be a Fullstack Developer so along side learning
+                  Backend Development, I also develop UI using React JS.
                 </Typography>
               </StyledTextContainer>
             </StyledPaper>
