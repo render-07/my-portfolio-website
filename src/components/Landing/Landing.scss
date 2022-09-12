@@ -1,0 +1,16 @@
+@import "../../global.scss";
+
+.imageContainer {
+  width: 350px;
+  height: 350px;
+
+  @include mediumScreen {
+    width: 280px;
+    height: 280px;
+  }
+
+  @include mobile {
+    width: 180px;
+    height: 180px;
+  }
+}

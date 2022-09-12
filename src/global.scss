@@ -1,0 +1,14 @@
+$widthSmall: 768px;
+$widthMedium: 912px;
+
+@mixin mobile {
+  @media (max-width: #{$widthSmall}) {
+    @content;
+  }
+}
+
+@mixin mediumScreen {
+  @media (max-width: #{$widthMedium}) {
+    @content;
+  }
+}
