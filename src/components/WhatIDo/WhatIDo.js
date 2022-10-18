@@ -30,14 +30,14 @@ const StyledHeader = styled(Typography)(({ theme }) => ({
   padding: "35px 90px",
 }));
 
-const StyledLeftGrid = styled(Typography)(({ theme }) => ({
+const StyledLeftGrid = styled(Grid)(({ theme }) => ({
   display: "flex",
   flex: 0.5,
   alignItems: "center",
   justifyContent: "center",
 }));
 
-const StyledRightGrid = styled(Typography)(({ theme }) => ({
+const StyledRightGrid = styled(Grid)(({ theme }) => ({
   display: "flex",
   flex: 0.5,
   alignItems: "center",

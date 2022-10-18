@@ -6,9 +6,8 @@ const data = [
   {
     id: 1,
     Title: "Grad-waiting",
-    Description:
-      "I'm finishing our thesis project and we are in publishing state.",
-    Date: "Sept 06 2022",
+    Description: "Our official graduation is in November 😑",
+    Date: "October 18 2022",
   },
   {
     id: 2,
@@ -34,6 +33,12 @@ const data = [
     Title: "Learn Learn Learn",
     Description: "Learn new stuff in programming and get certifications.",
     Date: "August 31 2022",
+  },
+  {
+    id: 6,
+    Title: "Commissions",
+    Description: "For the meantime, I am doing Arduino commissions.",
+    Date: "October 18 2022",
   },
 ];
 
