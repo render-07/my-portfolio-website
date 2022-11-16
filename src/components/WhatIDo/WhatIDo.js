@@ -8,7 +8,9 @@ import {
   Stack,
   Paper,
 } from "@mui/material";
-import { GoBrowser, GoServer } from "react-icons/go";
+import { GoBrowser } from "react-icons/go";
+import { AiFillBank } from "react-icons/ai";
+import { GiVintageRobot } from "react-icons/gi";
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.secondary.main,
@@ -125,6 +127,29 @@ const WhatIDo = () => {
           <Stack spacing={2}>
             <StyledPaper sx={{ display: { xs: "inline", lg: "flex" } }}>
               <StyledIconContainer sx={{ fontSize: { xs: 60, lg: 100 } }}>
+                <AiFillBank />
+              </StyledIconContainer>
+              <StyledTextContainer
+                sx={{ textAlign: { xs: "center", lg: "left" } }}
+              >
+                <StyledLineText variant="h3" component="div">
+                  ___
+                </StyledLineText>
+                <Typography
+                  variant="h5"
+                  component="div"
+                  sx={{ marginBottom: 2, fontWeight: 700 }}
+                >
+                  IST Switch Application Engineer
+                </Typography>
+                <Typography variant="h6" component="div">
+                  I program IST switch for banks.
+                </Typography>
+              </StyledTextContainer>
+            </StyledPaper>
+
+            <StyledPaper sx={{ display: { xs: "inline", lg: "flex" } }}>
+              <StyledIconContainer sx={{ fontSize: { xs: 60, lg: 100 } }}>
                 <GoBrowser />
               </StyledIconContainer>
               <StyledTextContainer
@@ -138,18 +163,18 @@ const WhatIDo = () => {
                   component="div"
                   sx={{ marginBottom: 2, fontWeight: 700 }}
                 >
-                  Frontend Designing
+                  Web Development
                 </Typography>
                 <Typography variant="h6" component="div">
-                  I aspire to be a Fullstack Developer so along side learning
-                  Backend Development, I also develop UI using React JS.
+                  I learn web development in my college days, and I used this
+                  knowledge to maintain my web portfolio.
                 </Typography>
               </StyledTextContainer>
             </StyledPaper>
 
             <StyledPaper sx={{ display: { xs: "inline", lg: "flex" } }}>
               <StyledIconContainer sx={{ fontSize: { xs: 60, lg: 100 } }}>
-                <GoServer />
+                <GiVintageRobot />
               </StyledIconContainer>
               <StyledTextContainer
                 sx={{ textAlign: { xs: "center", lg: "left" } }}
@@ -162,11 +187,10 @@ const WhatIDo = () => {
                   component="div"
                   sx={{ marginBottom: 2, fontWeight: 700 }}
                 >
-                  Backend Development
+                  Arduino Programming
                 </Typography>
                 <Typography variant="h6" component="div">
-                  I create and maintain effective APIs using Node JS and Express
-                  JS.
+                  I accept Arduino projects whenever I have free time.
                 </Typography>
               </StyledTextContainer>
             </StyledPaper>

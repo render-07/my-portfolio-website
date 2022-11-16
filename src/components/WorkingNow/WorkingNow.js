@@ -5,37 +5,50 @@ import { Box, Grid, styled, Typography } from "@mui/material";
 const data = [
   {
     id: 1,
+    Title: "Officially Graduated",
+    Description: "I'm out of PUP.",
+    Date: "November 10 2022",
+  },
+  {
+    id: 2,
+    Title: "FIS Chapter",
+    Description:
+      "Currently hired as a Software Engineer I at FIS Global Solutions Philippines Inc.",
+    Date: "November 10 2022",
+  },
+  {
+    id: 3,
     Title: "Grad-waiting",
     Description: "Our official graduation is in November 😑",
     Date: "October 18 2022",
   },
   {
-    id: 2,
+    id: 4,
     Title: "This Portfolio",
     Description: "This also serves a practice for me as a developer.",
     Date: "August 31 2022",
   },
   {
-    id: 3,
+    id: 5,
     Title: "Job Hunting",
     Description: "I'm part of the adulting club now.",
     Date: "August 31 2022",
   },
   {
-    id: 4,
+    id: 6,
     Title: "Playing Dota 2",
     Description:
       "I play during my break hours or when I'm lazy to do anything.",
     Date: "August 31 2022",
   },
   {
-    id: 5,
+    id: 7,
     Title: "Learn Learn Learn",
     Description: "Learn new stuff in programming and get certifications.",
     Date: "August 31 2022",
   },
   {
-    id: 6,
+    id: 8,
     Title: "Commissions",
     Description: "For the meantime, I am doing Arduino commissions.",
     Date: "October 18 2022",
