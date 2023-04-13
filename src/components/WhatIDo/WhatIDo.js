@@ -143,7 +143,7 @@ const WhatIDo = () => {
                   IST Switch Application Engineer
                 </Typography>
                 <Typography variant="h6" component="div">
-                  I program IST switch for banks.
+                  I program / debug IST switch for bank institution.
                 </Typography>
               </StyledTextContainer>
             </StyledPaper>
