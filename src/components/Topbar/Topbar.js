@@ -26,10 +26,9 @@ const Topbar = () => {
     <AppBar position="sticky">
       <StyledToolBar>
         <StyledLogo>render07.</StyledLogo>
-        <StyledContacts sx={{ display: { xs: "none", md: "flex" } }}>
-          <CallIcon style={{ marginRight: "10px" }} />
-          0998 036 2328 | 0915 807 8652
-        </StyledContacts>
+        <StyledContacts
+          sx={{ display: { xs: "none", md: "flex" } }}
+        ></StyledContacts>
         <StyledContacts sx={{ display: { xs: "none", md: "flex" } }}>
           <EmailIcon style={{ marginRight: "10px" }} />
           rednerivanpadasay@gmail.com

@@ -104,10 +104,10 @@ const Footer = () => {
             fontSize: { xs: 15, lg: 25 },
           }}
         >
-          <IoIosCall />
-          <Typography component="div" sx={{ fontSize: { xs: 14, lg: 15 } }}>
-            0998 036 2328 | 0915 807 8652
-          </Typography>
+          <Typography
+            component="div"
+            sx={{ fontSize: { xs: 14, lg: 15 } }}
+          ></Typography>
         </StyledNumberContainer>
 
         <Container sx={{ marginTop: 1 }}>
